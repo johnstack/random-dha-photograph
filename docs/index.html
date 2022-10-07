@@ -2,6 +2,7 @@
 <head>
 
   <title>Random Daily Herald Archive Photograph</title>
+	
 
     <style>
   
@@ -13,22 +14,21 @@
     
     body { 
       margin: 0;
-      padding: 10;
-      background: #0C0C0C;
+      padding: 0;
+      background: black;
     }
     
     .container {
         width: 99%;
-        height: 99%;
         margin-left: auto;
         margin-right: auto;  
     }
 
    
    #pix, #pix1 {
-    width: 47%; 
+    width: 45%; 
     float: left; 
-    margin-left: 5px;
+    margin: 5px;
     }
     
    img {
@@ -37,24 +37,39 @@
     object-fit: contain;
     overflow: hidden;
     } 
+	    
+   #reload {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    }
 
   @media only screen and (max-width: 600px) {
-
+   #label {
+    width: 90%;
+    height: auto; 
+    padding-top: 0px;
+    margin-bottom: 0px;
+    }
+	  
    .container {
 	width: 99%;
-	height: initial;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto; 
    }
    
+
     
    #pix, #pix1 {
-     width: 95%; 
+     width: 90%; 
      padding: 0px; 
-     float: left; 
-     height: auto;
+     float: left;  
     }
-       
+    
+    
     img {
      object-position: 0% 0%;    
     }	   
@@ -63,7 +78,7 @@
       
 </style>
 	
-
+	
 <meta name="robots" content="noindex" /> 
 	
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,11 +90,17 @@
   <script src="co6.js"></script>
   
   <div class="container">
-	  
-     <div id="pix"> </div>
-     <div id="pix1"> </div>
+
+    
+<div id="pix"> </div>
+ <div id="pix1"> </div>
+
 
   </div>
+
+<div id="reload">
+	<a href="index.html"><img src="iconmonstr-synchronization-3-240.png" alt="Reload page"></a>
+</div>
   
 </body>
 </html>

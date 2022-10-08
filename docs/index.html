@@ -19,9 +19,10 @@
     }
     
     .container {
-        width: 99%;
-        margin-left: auto;
-        margin-right: auto;  
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center; 
     }
 
    
@@ -29,12 +30,12 @@
     width: 45%; 
     float: left; 
     margin: 5px;
-    height:auto;
+    height: 80%;
     }
     
    img {
     width: 100%;
-    height: auto;
+    height: 90%;
     object-fit: contain;
     overflow: hidden;
     } 
@@ -48,22 +49,26 @@
     }
 
     #reload img {
-	    opacity: 0.5;
+	    opacity: 0.7;
 	    }
+
+    #logo {
+    position:fixed;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 40px;}
+
 
   @media only screen and (max-width: 600px) {
 	  
    .container {
-	width: 99%;
-	margin-left: auto;
-	margin-right: auto; 
    }
      
    #pix, #pix1 {
-     width: 90%; 
-     padding: 0px; 
+     width: 100%; 
      float: left; 
-     height: auto;
+     height: inherit;
     }
     
     
@@ -97,6 +102,10 @@
 
 <div id="reload">
 	<a href="index.html"><img src="iconmonstr-synchronization-3-240.png" alt="Reload page"></a>
+</div>
+
+<div id="logo">
+	<a href="https://www.scienceandmediamuseum.org.uk"><img src="smm-logo.svg" alt="National Science and Media Museum logo"></a>
 </div>
   
 </body>

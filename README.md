@@ -1,4 +1,4 @@
-# Random Daily Herald Archive Picture
+# Random Daily Herald Archive Photograph
 
 **Moved to [https://github.com/TheScienceMuseum/random-dha-photograph](https://github.com/TheScienceMuseum/random-dha-photograph).**
 

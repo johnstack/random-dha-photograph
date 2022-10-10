@@ -4,4 +4,4 @@ A [webpage](https://johnstack.github.io/random-dha-photograph/) that displays a 
 
 ## Open Source License
 
-Licensed under the open source [MIT License](https://github.com/johnstack/random-dha-photograph/blob/main/LICENSE) with the exception of SMG Sans font which is copyright The Board of Trustees of the Science Museum. 
+Licensed under the open source [MIT License](https://github.com/TheScienceMuseum/random-dha-photograph/blob/main/LICENSE) with the exception of SMG Sans font which is copyright The Board of Trustees of the Science Museum. 

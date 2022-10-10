@@ -4,4 +4,4 @@ A [webpage](https://thesciencemuseum.github.io/random-dha-photograph/index.html)
 
 ## Open Source License
 
-Licensed under the open source [MIT License](https://github.com/TheScienceMuseum/random-dha-photograph/blob/main/LICENSE). 
+Code licensed under the open source [MIT License](https://github.com/TheScienceMuseum/random-dha-photograph/blob/main/LICENSE). 
